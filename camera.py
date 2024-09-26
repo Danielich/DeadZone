@@ -1,4 +1,3 @@
-Mới! Phím tắt … Các phím tắt trong Drive đã được cập nhật để bạn có thể thao tác bằng chữ cái đầu tiên
 import tkinter as tk
 import customtkinter
 import cv2
