@@ -43,13 +43,11 @@ class CameraApp:
 
             # Increment the photo counter
             self.photo_count += 1
-
             # Wait for a short time to prevent multiple captures from a single press
             time.sleep(0.5)
-
+            
     def update(self):
         ret, frame = self.cam.read()
-
         if ret:
             frame = cv2.flip(frame, 1)  
             frame = cv2.resize(frame, (1100, 645))
